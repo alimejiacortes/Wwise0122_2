@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0AC338C-2343-4092-B1FC-F8E14A203748}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="GHANDHARA" ID="{E0AC338C-2343-4092-B1FC-F8E14A203748}" PersistMode="Standalone"/>
+	</Busses>
+</WwiseDocument>
