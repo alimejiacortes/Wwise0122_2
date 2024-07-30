@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB495D7C-32E9-4004-8911-305676FF3D38}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="GHANDHARA" ID="{AB495D7C-32E9-4004-8911-305676FF3D38}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="COOL SOUNDS" ID="{3029E4E2-10F5-4964-8ACD-95F9B35B9129}" ShortID="522989091">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Air, Blow, Italian Workshop, Compressed Air, Short Burst, Muffled Voice (LRC) SND97421" ID="{58E48AA0-4BC8-4059-BA6F-9E45AB2E0438}">
+							<Language>SFX</Language>
+							<AudioFile>Air, Blow, Italian Workshop, Compressed Air, Short Burst, Muffled Voice (LRC) SND97421.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="848852465"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Air, Blow, Italian Workshop, Compressed Air, Short Burst, Muffled Voice (LRC) SND97421" ID="{58E48AA0-4BC8-4059-BA6F-9E45AB2E0438}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
