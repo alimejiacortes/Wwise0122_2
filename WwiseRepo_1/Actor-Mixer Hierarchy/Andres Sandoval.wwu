@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1DD97D49-DE68-4C50-B7BC-C921AC1DF698}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Andres Sandoval" ID="{1DD97D49-DE68-4C50-B7BC-C921AC1DF698}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sfx" ID="{E9F7804D-697A-4EC0-BBF0-90F30A3D6A38}" ShortID="308898296">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Musical, Sample, 808 Kick, Boom, Sub, Thump, Short, Processed 04 SND36003" ID="{7ECC952A-B294-4C3D-8835-3A5A02BEBE72}">
+							<Language>SFX</Language>
+							<AudioFile>Musical, Sample, 808 Kick, Boom, Sub, Thump, Short, Processed 04 SND36003.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="230071592"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Musical, Sample, 808 Kick, Boom, Sub, Thump, Short, Processed 04 SND36003" ID="{7ECC952A-B294-4C3D-8835-3A5A02BEBE72}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
