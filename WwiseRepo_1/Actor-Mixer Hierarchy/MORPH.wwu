@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59DDC33C-1B4F-499E-B6BB-509E08E6ED4F}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="MORPH" ID="{59DDC33C-1B4F-499E-B6BB-509E08E6ED4F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="MORFEO" ID="{CB6F9E6D-33E4-4229-8E1A-86B49E50D49C}" ShortID="45518313">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND67149"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1722363768JlfaQVk34OIniwHbsXy&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND67149/sfy_eRfYyoeYweNYhIflpAPtABFWhFMMUt"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="3.936"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\Ricardo Morfin\Soundly Audio\Water, Misc, One Shot, Space Droplets SND67149.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.017578125"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.15234375"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Water, Misc, One Shot, Space Droplets SND67149" ID="{A510D8F7-424F-468D-832A-A79BB132B188}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND67149"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0691875"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.599625"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Water, Misc, One Shot, Space Droplets SND67149.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="980108762"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Water, Misc, One Shot, Space Droplets SND67149" ID="{A510D8F7-424F-468D-832A-A79BB132B188}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
