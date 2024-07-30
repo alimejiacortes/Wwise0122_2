@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E974CFE-5ECF-4DEA-BE27-CD861B8B75F7}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="ERNESTO" ID="{4E974CFE-5ECF-4DEA-BE27-CD861B8B75F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ONE_SHOT" ID="{29F13DD8-226A-4325-BF18-CE795EFC5F54}" ShortID="647740176">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wood, Handle, Wooden Door Frame, Grab, Tap, Hit With Hand, Varying Force, Off Axis 05 SND88906" ID="{4731F91F-DFB6-44C1-86A4-CD24BBE72624}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.557687124586074"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Wood, Handle, Wooden Door Frame, Grab, Tap, Hit With Hand, Varying Force, Off Axis 05 SND88906.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="712506037"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wood, Handle, Wooden Door Frame, Grab, Tap, Hit With Hand, Varying Force, Off Axis 05 SND88906" ID="{4731F91F-DFB6-44C1-86A4-CD24BBE72624}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
