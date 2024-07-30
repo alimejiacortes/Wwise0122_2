@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C81A59E9-0E20-4226-8FB3-80A54D5562EF}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="ROSA MEJIA" ID="{C81A59E9-0E20-4226-8FB3-80A54D5562EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ROSAAMINTAMEJIASORIANO" ID="{E5DEC604-DDAE-4156-9F78-AE93BB1DEA17}" ShortID="398936434">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bells, Doorbell, Buzzer, Old SND1447" ID="{67E87470-7D6A-43D8-9994-4D18D30C523B}">
+							<Language>SFX</Language>
+							<AudioFile>Bells, Doorbell, Buzzer, Old SND1447.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="541083748"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bells, Doorbell, Buzzer, Old SND1447" ID="{67E87470-7D6A-43D8-9994-4D18D30C523B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
