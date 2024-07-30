@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E08796E1-E776-4C88-A42F-0DF95CFDF3D1}" SchemaVersion="119" RootDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" ParentDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}">
+	<AudioObjects>
+		<WorkUnit Name="Ivan" ID="{E08796E1-E776-4C88-A42F-0DF95CFDF3D1}" OwnerID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="New Sound SFX" ID="{35A3615F-7090-40B6-A419-D55372EE2BCC}" ShortID="10429316">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pistol_Shoot_01" ID="{9335E986-364E-432E-B9B5-2F544F13DE69}">
+							<Language>SFX</Language>
+							<AudioFile>Pistol_Shoot_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="583013221"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pistol_Shoot_01" ID="{9335E986-364E-432E-B9B5-2F544F13DE69}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
