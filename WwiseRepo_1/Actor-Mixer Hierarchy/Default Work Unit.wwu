@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="ali" ID="{EB0307E8-618B-457E-BF48-240F45CF2A21}" PersistMode="Reference"/>
+				<WorkUnit Name="Daniel Reyes" ID="{861B35F6-15A6-4BA3-B1C1-AAAABCCB242D}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
