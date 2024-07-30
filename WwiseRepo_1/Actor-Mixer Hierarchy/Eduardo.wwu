@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{128833BD-5106-4957-8B66-59DA7CF48A39}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Eduardo" ID="{128833BD-5106-4957-8B66-59DA7CF48A39}" PersistMode="Standalone"/>
+		<WorkUnit Name="Eduardo" ID="{128833BD-5106-4957-8B66-59DA7CF48A39}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Oneshoot" ID="{5F57823A-6FA3-467C-9D42-7948BC9C9657}" ShortID="381535549">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sports, Field, Football, Ball Shoot 01 SND14005 1" ID="{72D8D68C-982A-4CA4-B061-1EEAE58F0C0A}">
+							<Language>SFX</Language>
+							<AudioFile>Sports, Field, Football, Ball Shoot 01 SND14005 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="667361293"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Sports, Field, Football, Ball Shoot 01 SND14005 1" ID="{72D8D68C-982A-4CA4-B061-1EEAE58F0C0A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
