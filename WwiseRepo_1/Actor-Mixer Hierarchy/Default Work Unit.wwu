@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="ali" ID="{EB0307E8-618B-457E-BF48-240F45CF2A21}" PersistMode="Reference"/>
 				<WorkUnit Name="mejiacortes" ID="{3ACE2ACA-CFCF-44DD-97B8-14B5911C3DF8}" PersistMode="Reference"/>
+				<WorkUnit Name="FX" ID="{2C9230DE-2B84-49F3-B81B-FB8DD8DC7CDD}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
