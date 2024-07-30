@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF818649-968A-489D-A14D-025D5092A8E4}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="EMI" ID="{EF818649-968A-489D-A14D-025D5092A8E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="emi" ID="{1060CB8B-1A73-4D54-93BA-2F08973D06D9}" ShortID="241811224">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fight, Impact, Punch, Face SND14118" ID="{84B5B226-66AE-466C-B977-D71F9247977B}">
+							<Language>SFX</Language>
+							<AudioFile>Fight, Impact, Punch, Face SND14118.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="611757054"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fight, Impact, Punch, Face SND14118" ID="{84B5B226-66AE-466C-B977-D71F9247977B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
