@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7B2E57B-5C88-4F03-B3B2-84C1F373F87D}" SchemaVersion="119" RootDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" ParentDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}">
+	<AudioObjects>
+		<WorkUnit Name="Bernardo" ID="{A7B2E57B-5C88-4F03-B3B2-84C1F373F87D}" OwnerID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Player GunShot" ID="{9B29D290-016D-4EAC-BA42-5A1195BEFE97}" ShortID="536748186">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Player GunShot" ID="{FCBC5EC8-5A33-4953-AF47-636494BA8BAC}">
+							<Language>SFX</Language>
+							<AudioFile>Player GunShot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="506458478"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Player GunShot" ID="{FCBC5EC8-5A33-4953-AF47-636494BA8BAC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
