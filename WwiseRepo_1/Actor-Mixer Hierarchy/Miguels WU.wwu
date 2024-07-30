@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2BE232FA-D495-410E-83CB-29AD6AB3D917}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Miguels WU" ID="{2BE232FA-D495-410E-83CB-29AD6AB3D917}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Musical, Chime, Wind Chimes, Ringing SND0729 1" ID="{1262D730-9D56-49BC-A571-19E64EF3717F}" ShortID="654969909">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Musical, Chime, Wind Chimes, Ringing SND0729 1" ID="{6BFB841E-240F-4614-8097-BA1B387AD03F}">
+							<Language>SFX</Language>
+							<AudioFile>Musical, Chime, Wind Chimes, Ringing SND0729 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="146241715"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Musical, Chime, Wind Chimes, Ringing SND0729 1" ID="{6BFB841E-240F-4614-8097-BA1B387AD03F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
