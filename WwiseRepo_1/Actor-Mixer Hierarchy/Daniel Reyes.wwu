@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CEC8629-2090-4902-8D5E-5E4E5AAAB8AB}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Daniel Reyes" ID="{0CEC8629-2090-4902-8D5E-5E4E5AAAB8AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Arma" ID="{49581F11-41D2-41EB-A509-45F0064A6D35}" ShortID="715015029">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="arma1" ID="{1E24BB95-04C7-4CED-B170-CE737385BA20}">
+							<Language>SFX</Language>
+							<AudioFile>arma1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1008504355"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="arma1" ID="{1E24BB95-04C7-4CED-B170-CE737385BA20}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
