@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C9230DE-2B84-49F3-B81B-FB8DD8DC7CDD}" SchemaVersion="119" RootDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" ParentDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}">
+	<AudioObjects>
+		<WorkUnit Name="FX" ID="{2C9230DE-2B84-49F3-B81B-FB8DD8DC7CDD}" OwnerID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="New Sound SFX" ID="{7E4245E6-0811-4601-8EBA-996E94E012BC}" ShortID="738150511">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pickup_Scifi_Energy02" ID="{5841160B-CB06-4B19-9179-5CBA905D1C8A}">
+							<Language>SFX</Language>
+							<AudioFile>Pickup_Scifi_Energy02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="474383430"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pickup_Scifi_Energy02" ID="{5841160B-CB06-4B19-9179-5CBA905D1C8A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
