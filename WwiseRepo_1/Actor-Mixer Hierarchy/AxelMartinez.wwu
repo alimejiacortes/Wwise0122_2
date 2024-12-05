@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FEEAD042-ECBB-44A4-A58D-D14909B0FAED}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="AxelMartinez" ID="{FEEAD042-ECBB-44A4-A58D-D14909B0FAED}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="New Sound SFX" ID="{D1D08406-CF04-4194-9CA4-32D91232E479}" ShortID="1023892808">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shell_Concrete_03" ID="{4E924AF6-B624-4FE2-AC3A-4FB65F167683}">
+							<Language>SFX</Language>
+							<AudioFile>Shell_Concrete_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="327014707"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shell_Concrete_03" ID="{4E924AF6-B624-4FE2-AC3A-4FB65F167683}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
