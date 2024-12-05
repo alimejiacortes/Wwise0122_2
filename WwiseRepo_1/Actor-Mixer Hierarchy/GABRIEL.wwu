@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2BD75501-5EC1-455D-BEB5-2F3D81819D56}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="GABRIEL" ID="{2BD75501-5EC1-455D-BEB5-2F3D81819D56}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SOUNDFX" ID="{A6059280-3E2E-47C6-B8C8-30FBD6A3CB78}" ShortID="325931926">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{8D7DD47E-C4C5-4581-A997-6B5492108116}">
+							<Language>SFX</Language>
+							<AudioFile>Wood, Impact, Hit, Table, Hard SND4258.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="793364606"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{8D7DD47E-C4C5-4581-A997-6B5492108116}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
